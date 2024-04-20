@@ -1,0 +1,135 @@
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height:60%;
+  z-index:-100;
+  
+}
+.fs-7{
+  font-size: 60px;
+}
+.top-40{
+  top: -70%;
+}
+
+.h2party{
+  color: #fff;
+}
+span.color-box{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(16, 77, 77);
+  display: inline-block;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+.bg-sideNav{
+  background-color: #a0153f;}
+#sideNav{
+  /* background-color: rgb(255, 170, 0); */
+  position: fixed;
+  top:0;
+  bottom: 0;
+  left: 0;
+  z-index: 3333;
+  
+
+}
+.side-inner{
+height: 100%;  
+width: 100%; 
+padding:40px; 
+align-items: center;
+
+}
+.side-inner li a{
+  text-decoration: none;
+color: rgb(253, 245, 244);  
+font-size: 30px;
+padding: 5px;
+cursor: pointer;
+}
+.side-inner li a:hover{
+color: #FC7300;
+}
+.side-inner li{
+  list-style: none;
+  padding: 30px;
+}
+.close-icon{
+  top: 30px;
+  right: 30px;
+
+}
+i{
+  cursor: pointer;
+}
+header{
+  height: 120%;
+}
+h3{
+  padding: 10px;
+  background-color: #a0153f;
+  cursor: pointer;
+}
+.mb-6{
+  margin-bottom:200px;
+}
+.singer p{
+  background-color: rgb(233, 228, 228);
+  display: none;
+
+}
+
+
+/* /////////////////countDown clock */
+
+
+
+#clockdiv {
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+  width: 90%;
+  padding: 30px;
+}
+#clockdiv > div {
+  width: 20%;
+  padding: 10px;
+  margin-left: 10px;
+  border: solid white 1px;
+  border-radius: 3px;
+  display: inline-block;
+}
+#clockdiv div > span {
+font-size: 40px;
+  padding: 15px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.smalltext {
+  padding-top: 5px;
+  font-size: 16px;
+}
+.bg-img {
+  background-image: url(../images/pexels-vishnurnair-1105666.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width:762px) {
+  body{
+    overflow-x: hidden;
+  }
+  #clockdiv > div {
+  width: 100%;
+  margin-top: 5px;
+
+}
+}
