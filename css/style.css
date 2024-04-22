@@ -5,8 +5,8 @@ video {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100% !important;
-  height:60%;
+  min-width: 100%;
+  min-height:60%;
   z-index:-100;
   
 }
@@ -126,12 +126,15 @@ font-size: 40px;
 }
 
 @media (max-width:762px) {
-  body{
+  body,html{
     overflow-x: hidden;
   }
   #clockdiv > div {
   width: 100%;
   margin-top: 5px;
 
+}
+  .singer{
+  margin-top: -20px;
 }
 }
