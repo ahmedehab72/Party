@@ -5,8 +5,8 @@ video {
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
-  min-height:60%;
+  width: 100% !important;
+  height:60%;
   z-index:-100;
   
 }
