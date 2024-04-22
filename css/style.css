@@ -1,4 +1,6 @@
-
+body{
+  overflow-x: hidden;
+}
 video {
   position: absolute;
   top: 0;
